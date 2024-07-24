@@ -2035,6 +2035,14 @@ html {
   height: 1.25rem;
 }
 
+.h-6 {
+  height: 1.5rem;
+}
+
+.h-8 {
+  height: 2rem;
+}
+
 .min-h-\[50vh\] {
   min-height: 50vh;
 }
@@ -2051,12 +2059,32 @@ html {
   width: 13rem;
 }
 
+.w-6 {
+  width: 1.5rem;
+}
+
+.w-8 {
+  width: 2rem;
+}
+
 .max-w-md {
   max-width: 28rem;
 }
 
+.max-w-sm {
+  max-width: 24rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
 .rounded-box {
   border-radius: var(--rounded-box, 1rem);
+}
+
+.rounded-lg {
+  border-radius: 0.5rem;
 }
 
 .bg-base-100 {
@@ -2090,12 +2118,21 @@ html {
   padding-right: 0.25rem;
 }
 
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
 .text-center {
   text-align: center;
 }
 
 .font-main-font-fam {
   font-family: Playfair Display, serif;
+}
+
+.font-secondary-font-fam {
+  font-family: Manrope, sans-serif;
 }
 
 .text-3xl {
@@ -2133,6 +2170,12 @@ html {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.shadow-2xl {
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 1024px) {
   .lg\:flex {
     display: flex;
@@ -2140,5 +2183,9 @@ html {
 
   .lg\:hidden {
     display: none;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
   }
 }
