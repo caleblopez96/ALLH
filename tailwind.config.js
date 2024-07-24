@@ -2,7 +2,12 @@
 module.exports = {
   content: ["./src/*.{html,js}", "./index.html"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        'main-font-fam': ['Playfair Display', 'serif'],
+        'secondary-font-fam': ['Manrope', 'sans-serif'],
+      },
+    },
   },
   plugins: [require('daisyui')],
   daisyui: {
@@ -22,7 +27,8 @@ module.exports = {
           "error": "#ff0000"
         }
       }
-    ]
+    ],
+    theme: "emerald" // Sets the default DaisyUI theme
   }
 }
 
