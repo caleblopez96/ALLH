@@ -605,7 +605,7 @@ html {
   --border-btn: 1px;
   --tab-border: 1px;
   --tab-radius: 0.5rem;
-  --p: 56.38% 0.062 134.86;
+  --p: 49.12% 0.3096 275.75;
   --s: 69.71% 0.329 342.55;
   --sc: 98.71% 0.0106 342.55;
   --a: 76.76% 0.184 183.61;
@@ -672,7 +672,7 @@ html {
   --border-btn: 1px;
   --tab-border: 1px;
   --tab-radius: 0.5rem;
-  --p: 56.38% 0.062 134.86;
+  --p: 65.69% 0.196 275.75;
   --s: 74.8% 0.26 342.55;
   --a: 74.51% 0.167 183.61;
   --n: 31.3815% 0.021108 254.139175;
@@ -705,7 +705,7 @@ html {
   --border-btn: 1px;
   --tab-border: 1px;
   --tab-radius: 0.5rem;
-  --p: 56.38% 0.062 134.86;
+  --p: 65.69% 0.196 275.75;
   --s: 74.8% 0.26 342.55;
   --a: 74.51% 0.167 183.61;
   --n: 31.3815% 0.021108 254.139175;
@@ -2006,16 +2006,8 @@ html {
   height: 1.25rem;
 }
 
-.min-h-screen {
-  min-height: 100vh;
-}
-
 .min-h-\[50vh\] {
   min-height: 50vh;
-}
-
-.min-h-\[75vh\] {
-  min-height: 75vh;
 }
 
 .w-10 {
@@ -2046,16 +2038,6 @@ html {
 .bg-base-200 {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-b2,oklch(var(--b2)/var(--tw-bg-opacity)));
-}
-
-.bg-base-300 {
-  --tw-bg-opacity: 1;
-  background-color: var(--fallback-b3,oklch(var(--b3)/var(--tw-bg-opacity)));
-}
-
-.bg-red-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-60 {
