@@ -605,7 +605,7 @@ html {
   --border-btn: 1px;
   --tab-border: 1px;
   --tab-radius: 0.5rem;
-  --p: 56.38% 0.062 134.86; /* this is the primary btn */
+  --p: 56.38% 0.062 134.86;
   --s: 69.71% 0.329 342.55;
   --sc: 98.71% 0.0106 342.55;
   --a: 76.76% 0.184 183.61;
@@ -638,7 +638,7 @@ html {
   --border-btn: 1px;
   --tab-border: 1px;
   --tab-radius: 0.5rem;
-  --p: 56.38% 0.062 134.86;
+  --p: 49.12% 0.3096 275.75;
   --s: 69.71% 0.329 342.55;
   --sc: 98.71% 0.0106 342.55;
   --a: 76.76% 0.184 183.61;
@@ -1166,7 +1166,7 @@ html {
   justify-content: center;
   max-width: 80rem;
   gap: 1rem;
-  padding: 2rem 1rem;
+  padding: 1rem;
 }
 
 .input {
