@@ -15,7 +15,7 @@ module.exports = {
       "dim",
       "emerald",
     ],
-    theme: "emerald" // Sets the default DaisyUI theme
+    theme: "emerald", // Sets the default DaisyUI theme
   }
 }
 
