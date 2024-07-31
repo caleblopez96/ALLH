@@ -12,10 +12,10 @@ module.exports = {
   plugins: [require('daisyui')],
   daisyui: {
     themes: [
-      "dim",
-      "emerald",
+      "light",
+      "dark",
     ],
-    theme: "emerald", // Sets the default DaisyUI theme
+    theme: "light", // Sets the default DaisyUI theme
   }
 }
 

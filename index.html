@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" data-theme="emerald">
+<html lang="en" data-theme="light">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,7 +15,7 @@
 <body>
 
 <!-- Navbar -->
-<div class="navbar bg-base-100 font-sans">
+<div class="navbar bg-base-100 font-sans sticky top-0 z-50">
     <div class="navbar-start">
       <div class="dropdown">
         <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -80,28 +80,85 @@
     </div>
 </div>
 
+
+
 <!-- Hero  -->
-<section class="bg-base-200 py-16 lg:py-24">
-  <div class="container mx-auto px-4">
-    <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
-      <div class="lg:w-1/2 text-center lg:text-left">
-        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-green-800 leading-tight mb-6">
-          Redefining Senior Living
-        </h1>
-        <p class="text-xl sm:text-2xl md:text-3xl text-gray-700 font-light tracking-wide mb-8">
-          Assisted Living at Lady's House
-        </p>
-        <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-          <button class="btn btn-primary text-lg px-8 py-3">Learn More</button>
-          <button class="btn btn-outline btn-primary text-lg px-8 py-3">Schedule a Tour</button>
+<!-- Hero Component -->
+<section class="bg-base-200">
+  <!-- Desktop Version (hidden on small screens, visible on large screens) -->
+  <div class="hidden lg:block py-16 lg:py-24">
+    <div class="container mx-auto px-4">
+      <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+        <div class="lg:w-1/2 text-center lg:text-left">
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-green-800 leading-tight mb-6">
+            Assisted Living at Lady's House
+          </h1>
+          <p class="text-xl sm:text-2xl md:text-3xl text-gray-700 font-light tracking-wide mb-8">
+            Located in Downtown Conroe, Texas, our family-owned assisted living facility provides compassionate care and a vibrant community where residents can enjoy a comfortable and fulfilling lifestyle.
+          </p>
+          <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+            <button class="btn btn-outline btn-primary text-lg px-8 py-3">Learn More</button>
+            <button class="btn btn-outline btn-primary text-lg px-8 py-3">Schedule a Tour</button>
+          </div>
+        </div>
+        <div class="lg:w-1/2">
+          <div class="carousel w-full">
+            <div id="slide1" class="carousel-item relative w-full">
+              <img
+                src="assets/images/front-gate-wbp.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide4" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-full">
+              <img
+                src="assets/images/front-gate-wbp.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-full">
+              <img
+                src="assets/images/front-gate-wbp.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide4" class="carousel-item relative w-full">
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp"
+                class="w-full" />
+              <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="lg:w-1/2">
-        <img
-          src="assets/images/front-gate-wbp.webp"
-          class="w-full h-auto rounded-lg shadow-2xl"
-          alt="Front gate of Lady's House"
-        />
+    </div>
+  </div>
+
+  <!-- Mobile Version (visible on small screens, hidden on large screens) -->
+  <div class="lg:hidden">
+    <div
+      class="hero min-h-screen"
+      style="background-image: url(assets/gif.gif);">
+      <div class="hero-overlay bg-opacity-60"></div>
+      <div class="hero-content text-neutral-content text-center">
+        <div class="max-w-md">
+          <h1 class="mb-5 text-6xl font-bold">Assisted Living Lady House</h1>
+          <p class="mb-5">
+            Located in Downtown Conroe, Texas, our family-owned assisted living facility provides compassionate care and a vibrant community where residents can enjoy a comfortable and fulfilling lifestyle.
+          </p>
+          <button class="btn btn-info">Get Started</button>
+        </div>
       </div>
     </div>
   </div>
