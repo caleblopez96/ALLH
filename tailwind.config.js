@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'main-font-fam': ['Playfair Display', 'serif'],
-        'secondary-font-fam': ['Manrope', 'sans-serif'],
+        'main': ['Playfair Display', 'serif'],
+        'secondary': ['Manrope', 'sans-serif'],
       },
       colors: {
         ladyHouseGreen: '#667E59',
