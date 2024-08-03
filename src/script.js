@@ -1,7 +1,12 @@
-document.querySelector('.theme-controller').addEventListener('change', function() {
-  if(this.checked) {
-    document.documentElement.setAttribute('data-theme', 'dark')
-  } else {
-    document.documentElement.setAttribute('data-theme', 'light')
-  }
-});
+
+const hamburger = document.querySelector(".hamburger");
+const navMenu = document.querySelector(".nav-menu");
+
+
+hamburger.addEventListener("click", mobileMenu);
+
+function mobileMenu() {
+  console.log("Hamburger clicked");
+  hamburger.classList.toggle("active");
+  navMenu.classList.toggle("active");
+}
