@@ -179,4 +179,8 @@ header {
   .marquee-content {
     animation: marquee 8s linear infinite;
   }
+
+  iframe {
+    max-width: 250px;
+  }
 }
