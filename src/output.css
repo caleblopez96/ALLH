@@ -1703,6 +1703,10 @@ html {
   margin: 3.5rem;
 }
 
+.m-8 {
+  margin: 2rem;
+}
+
 .mx-4 {
   margin-left: 1rem;
   margin-right: 1rem;
