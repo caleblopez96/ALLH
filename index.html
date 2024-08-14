@@ -381,7 +381,7 @@
 <!-- Contact -->
 <section class="bg-gradient-to-t from-tan to-white py-16">
   <div class="container mx-auto px-4">
-    <h2 class="text-3xl font-bold mb-8 text-center text-ladyHouseGreen font-main">Contact Us</h2>
+    <h2 class="text-3xl sm:text-2xl lg:text-6xl font-bold mb-8 text-center text-ladyHouseGreen font-main">Contact Us</h2>
     
     <div class="flex flex-col lg:flex-row gap-12">
       <div class="lg:w-1/2">
@@ -390,7 +390,7 @@
           We value your questions and feedback. Whether you're interested in learning more about our services, scheduling a tour, or have specific inquiries, our team is here to assist you.
         </p>
 
-        <div class="bg-white p-11 rounded-lg shadow-md">
+        <div class="bg-white py-20 px-10 rounded-lg shadow-md">
           <h3 class="text-xl text-center lg:text-left font-semibold text-ladyHouseGreen font-main mb-4">Contact Information</h3>
           <ul class="space-y-3">
             <li class="flex items-center">
@@ -436,6 +436,23 @@
             <div>
               <label for="email" class="block text-sm font-medium text-gray-700 mb-1">Email Address *</label>
               <input type="email" id="email" name="email" required class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent">
+            </div>
+            <div>
+              <label for="help-type" class="block text-sm font-medium text-gray-700 mb-1">How can we help? *</label>
+              <select id="help-type" name="help-type" required class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                <option value="">Please select</option>
+                <option value="pricing">Pricing</option>
+                <option value="tour">Tour</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+            <div>
+              <label for="preferred-contact" class="block text-sm font-medium text-gray-700 mb-1">Preferred Contact Method</label>
+              <select id="preferred-contact" name="preferred-contact" class="w-full p-2 border border-gray-300 rounded-md focus:ring-2 focus:ring-green-500 focus:border-transparent">
+                <option value="">Please select</option>
+                <option value="email">Email</option>
+                <option value="phone">Phone</option>
+              </select>
             </div>
           </div>
           <div class="mt-4">
