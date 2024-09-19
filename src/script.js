@@ -47,5 +47,3 @@ form.addEventListener('submit', () => {
     window.alert('please enter a valid email address')
   }
 })
-
-
